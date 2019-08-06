@@ -1,0 +1,41 @@
+[package]
+name = "cargo-copyright"
+version = "0.0.0"
+authors = ["Ryo Yamashita <qryxip@gmail.com>"]
+edition = "2018"
+description = "Generates appropriate license and copyright notices."
+repository = "https://github.com/qryxip/cargo-copyright"
+readme = "README.md"
+keywords = ["cargo", "license"]
+categories = ["development-tools::cargo-plugins"]
+license = "MIT OR Apache-2.0"
+publish = false
+
+[badges]
+maintenance = { status = "experimental" }
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+atty = "0.2.13"
+cargo_metadata = "0.8.1"
+derive_more = "0.15.0"
+env_logger = "0.6.2"
+failure = "0.1.5"
+filetime = "0.2.6"
+fixedbitset = "0.1.9"
+if_chain = "1.0.0"
+indexmap = "1.0.2"
+itertools = "0.8.0"
+log = "0.4.8"
+maplit = "1.0.1"
+once_cell = "0.2.4"
+opaque_typedef = "0.0.5"
+opaque_typedef_macros = "0.0.5"
+regex = "1.2.1"
+serde = { version = "1.0.98", features = ["derive"] }
+serde_json = "1.0.40"
+structopt = "0.2.18"
+strum = "0.15.0"
+strum_macros = "0.15.0"
+termcolor = "1.0.5"
